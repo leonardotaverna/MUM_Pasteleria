@@ -205,6 +205,10 @@ main{
 
 /* productos.html  */
 
+main{
+    height:70vh;
+}
+
 #productos__nav{
     height:100vh;
         

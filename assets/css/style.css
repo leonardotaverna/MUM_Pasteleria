@@ -117,12 +117,26 @@ main{
     color:#8a4358;
     display: flex;
     flex-wrap: wrap;
-    background-color:#fffffe;
+    background-image: url(../img/galeria/4.jpeg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;)
 }
+
+/* .fondo_main{ 
+    height:auto;
+    border:solid black;
+}
+
+.fondo__main--foto{
+    height:60vh;
+}*/
 
 #descripcion{
    align-self: flex-end;
    font-size: large;
+   background-color: #fffffe;
       
 }
 

@@ -238,13 +238,20 @@ main{
 
 .productos__nav ul li a:hover{
     color: #ff8ba7;
-    }
+
+}
 
 
 #img__productos{
     height:12vh;
+    transition: height 0.5s;
    
 }
+
+#img__productos:hover{
+    height:13vh;
+}
+
 
 
 
@@ -272,7 +279,7 @@ main{
 }
 
 #galeria__productos__fotos--img:hover{
-height: 30vh;
+    height: 28vh;
 
 }
 

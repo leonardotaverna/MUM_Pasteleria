@@ -232,6 +232,8 @@ main{
 
 .productos__nav ul li a p{
     background-color:#fffffe;
+    border:solid 1px #8a4358;
+    
 }
 
 .productos__nav ul li a:hover{

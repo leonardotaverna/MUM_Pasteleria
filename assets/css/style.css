@@ -121,7 +121,8 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;)
+    position: relative;
+    justify-content: center;
 }
 
 /* .fondo_main{ 
@@ -196,8 +197,61 @@ main{
 .quienes_somos--foto--p{
     width: 60%;
     color:#8a4358;
+    background-color: #fffffe;
       
 }
+
+
+
+/* productos.html  */
+
+#productos__nav{
+    height:100vh;
+        
+}
+
+#productos__nav--div1{
+    display: inline-block;
+    height: 100%;
+    width: 49%;
+    text-align: center;
+       
+}
+
+#productos__nav--div2{
+    display: inline-block;
+    height: 100%;
+    width: 49%;
+    text-align: center;
+     
+}
+
+
+#productos__nav ul li{
+    display:block;
+    list-style: none;
+    margin:auto;
+    padding:2px;
+       
+}
+
+#productos__nav ul li a{
+    color: #8a4358;
+
+}
+
+#productos__nav ul li a:hover{
+    color: #ff8ba7;
+
+}
+
+
+#img__productos{
+    height:20vh;
+}
+
+
+
 
 
 
@@ -360,7 +414,7 @@ footer{
         flex-direction: row;
         height: auto;
         width: 45%;
-        border: solid #8a4358;
+        
         
     }
     

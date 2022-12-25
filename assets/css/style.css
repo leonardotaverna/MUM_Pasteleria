@@ -188,7 +188,6 @@ main{
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 100%;
     align-items: center;
            
 }
@@ -196,6 +195,7 @@ main{
 .quienes_somos--foto--p{
     width: 60%;
     color:#8a4358;
+    background-color: #fffffe;
       
 }
 

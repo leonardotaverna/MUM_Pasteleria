@@ -55,6 +55,69 @@ h1{
     
 }
 
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    position: relative;
+    width:auto;
+    grid-area: nav;
+    
+    
+    
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+    text-align: center;
+    position:relative;
+    
+      
+    
+}
+
+/* Style navigation menu links */
+.topnav a {
+    color:#8a4358;
+    text-decoration: none;
+    display: inline-block;
+    
+    
+}
+
+
+.myLinks__menu{
+    font-size: 15px;
+    border:#ff8ba7 solid 1px;
+    background-color: #faeee7;
+    transition: font-size 0.5s;
+    
+}
+
+.myLinks__menu:hover{
+    font-size:18px;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+    color:#8a4358;
+    display: inline-block;
+    position: relative;
+    font-size: 25px;
+    left: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #f5c9d3;
+    
+    
+}
+
+
+
+/* 
 #navegador{
     grid-area: nav;
                       
@@ -79,6 +142,9 @@ h1{
     
 
 }
+*/
+
+
 
 #redes{
     grid-area: redes;

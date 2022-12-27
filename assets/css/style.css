@@ -15,12 +15,8 @@ body{
     font-family: alata,sans-serif;
     color:#8a4358;
     text-align: center;
-    /* background-image: url(../img/galeria/7.png); 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;*/
-  
+    height:auto;
+    
 }
 
 header{
@@ -118,36 +114,6 @@ h1{
 
 
 
-
-/* 
-#navegador{
-    grid-area: nav;
-                      
-}    
-
-#navegador ul li{
-    list-style: none;
-    font-size: 12px;
-    
-}
-
-#navegador ul li a{
-    color: #8a4358;
-    text-decoration: none;
-    transition: font-size 0.5s;
-           
-}
-
-#navegador ul li a:hover{
-    color: #ff8ba7;
-    font-size: 18px;
-    
-
-}
-*/
-
-
-
 #redes{
     grid-area: redes;
     display:flex;
@@ -211,16 +177,6 @@ main{
     
 }
  
-/* .carousel-inner{ 
-    height: 70vh;
-    border: solid black;
-    width:100%;
-}
-
-.carousel-item{
-    height:70vh;
-    width:100%;
-}*/
 
 #video--recomiendan1 iframe{
     height: 35vh;
@@ -241,6 +197,7 @@ main{
 
 #quienes_somos{
     height: auto;
+    width: 100%;
               
 }
 
@@ -356,22 +313,20 @@ main{
 /* contacto.html */
 
 .contacto{
-    height:auto;
-
-}
-
-#formulario__contacto{
     height:70vh;
-    
+    margin:0;
+    padding:0;
 
 }
+
 
 form{
     display:flex;
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
-    height:95%;
+    height:70vh;
+   
     
     
 }

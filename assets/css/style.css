@@ -588,10 +588,16 @@ footer{
 
     /* galeria.html */
 
+    .galeria{
+        justify-content:center;
+    }
+    
+    
     .galeria__productos__fotos{
         display:grid;
         grid-template-columns: repeat(4, 1fr);
         justify-items:center;
+        align-items:center;
         
     }
 
@@ -618,19 +624,9 @@ footer{
 
 
 
-}
-
-
-
-
-
 @media screen and (min-width: 1024px) {
 
-    /* general */
-
-    
-
-    
+      
     /* index */
 
         
@@ -679,129 +675,3 @@ footer{
 
 
 
-
-
-/* productos.html 
-
-#productos__nav{
-    height:75vh;
-        
-}
-
-#productos__nav--div1{
-    display: inline-block;
-    height: 100%;
-    width: 49%;
-    text-align: center;
-       
-}
-
-#productos__nav--div2{
-    display: inline-block;
-    height: 100%;
-    width: 49%;
-    text-align: center;
-     
-}
-
-
-#productos__nav ul li{
-    display:block;
-    list-style: none;
-    margin:auto;
-    padding:2px;
-       
-}
-
-#productos__nav ul li a{
-    color: #8a4358;
-
-}
-
-#productos__nav ul li a:hover{
-    color: #ff8ba7;
-
-}
-
-
-#img__productos{
-    height:20vh;
-}
-
-
-
-
-/* galeria.html */
-
-
-
-
-/* ustedes.html 
-
-#ustedes__fotos{
-    text-align: center;
-    
-}
-
-
-
-/* contacto.html 
-
-#formulario__contacto{
-    text-align: center;
-    height: 75vh;
-   
-}
-
-
-form input{
-    background-color:#ff8ba7;
-    color:#8a4358;
-
-}
-
-
-/* Footer general 
-
-footer{
-    background-color: rgb(168, 200, 201);
-    text-align:center;
-        
-}
-
-footer p{
-    color:#13591A;
-        
-}
-
-#seguinosredes{
-    display: inline-block;
-    height: 5vh;
-
-}
-
-#seguinosredes a img{
-    height:5vh;
-
-}
-
-#footer_navegador{
-    display: inline-block;
-    color:#13591A;
-    text-align: left;
-          
-} 
-
-#footer_navegador ul li a{
-    color:#13591A;
-    text-align: left;
-           
-}    
-
-#footer_navegador ul li a:hover{
-    color: lightseagreen;
-    cursor: pointer;
-    
-}
-
-*/

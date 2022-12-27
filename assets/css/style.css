@@ -72,9 +72,10 @@ h1{
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
     display: none;
-    text-align: right;
+    text-align: center;
     position: fixed;
     z-index: 1;
+    padding-top:35px;
     
      
 }

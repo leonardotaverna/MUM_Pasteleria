@@ -62,7 +62,9 @@ h1{
     position: relative;
     width:auto;
     grid-area: nav;
+    height:auto;
     
+     
     
     
 }
@@ -70,50 +72,49 @@ h1{
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
     display: none;
-    text-align: center;
-    position:relative;
+    text-align: right;
+    position: fixed;
+    z-index: 1;
     
-      
-    
+     
+}
+
+#myLinks ul{
+    list-style: none;
 }
 
 /* Style navigation menu links */
 .topnav a {
     color:#8a4358;
     text-decoration: none;
-    display: inline-block;
-    
-    
+    display: block;
+       
 }
 
 
 .myLinks__menu{
-    font-size: 15px;
-    border:#ff8ba7 solid 1px;
+    font-size: 0.9em;
     background-color: #faeee7;
     transition: font-size 0.5s;
-    
+    border:#ff8ba7 solid 1px;
+  
 }
 
 .myLinks__menu:hover{
-    font-size:18px;
+    background-color: #f5c9d3;
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
     color:#8a4358;
-    display: inline-block;
+    display: block;
     position: relative;
     font-size: 25px;
     left: 0;
     top: 0;
+    
 }
 
-.topnav a:hover {
-    background-color: #f5c9d3;
-    
-    
-}
 
 
 

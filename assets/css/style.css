@@ -196,9 +196,14 @@ main{
 /* nosotros.html */
 
 #quienes_somos{
+    display:grid;
+    grid-template-columns: 1fr;
     height: auto;
     width: 100%;
-              
+    margin:0;
+    padding:0;
+    justify-items: center;
+                 
 }
 
 #quienes_somos--foto{
@@ -206,13 +211,18 @@ main{
     flex-direction: column;
     height: auto;
     align-items: center;
-           
+    width:90%;
+    margin:0;
+    padding:0;
+              
 }
 
 .quienes_somos--foto--p{
-    width: 60%;
+    width: auto;
     color:#8a4358;
     background-color: #fffffe;
+    margin:auto;
+    padding:auto;
       
 }
 
@@ -222,8 +232,12 @@ main{
 
 .productos{
     height:68vh;
-    width:100%;
-    display:inline-block;
+    display:grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    align-items: center;
+    
+   
     
 }
 
@@ -231,12 +245,14 @@ main{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3,1fr);
+    
+   
 }
 
 
 .productos__nav ul li{
    list-style: none;
-     
+   
           
 }
 
@@ -249,6 +265,7 @@ main{
 .productos__nav ul li a p{
     background-color:#fffffe;
     border:solid 1px #8a4358;
+    height: auto;
     
 }
 
@@ -288,14 +305,15 @@ main{
 
 #galeria__productos__fotos--img{
     height:25vh;
-    width:auto;
-    transition: height 0.5s;
+    width:80%;
+    transition: height 0.5s, width 0.5s;
     
 
 }
 
 #galeria__productos__fotos--img:hover{
     height: 28vh;
+    width:85%;
 
 }
 
@@ -305,7 +323,20 @@ main{
 
 .ustedes{
     height:auto;
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr;
+    margin:0;
+    padding:0;
 }
+
+#ustedes__fotos img{
+    width:100%;
+    height:100%;
+    
+}
+
+
 
 
 
@@ -334,6 +365,11 @@ form{
 #formulario__contacto label{
     background-color: #fffffe;
 
+}
+
+#mensaje{
+    width:100%;
+   
 }
 
 form input{

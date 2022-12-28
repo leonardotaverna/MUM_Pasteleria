@@ -53,6 +53,11 @@ h1{
 
 
 /* Style the navigation menu */
+
+.navegador{
+    display:none;
+}
+
 .topnav {
     overflow: hidden;
     position: relative;
@@ -490,16 +495,27 @@ footer{
         
     }
     
-    #navegador{
+    .topnav{
+        display:none;
+    }
+
+    .navegador{
+        display:inline-block;
         list-style: none;
         text-align:right;
         width:auto;
                
     }    
     
-    #navegador ul li{
+    .navegador ul li{
         display: inline-block;
         font-size: 15px;
+            
+    }
+
+    .navegador ul li a{
+        text-decoration: none;
+        color: #8a4358;
             
     }
         
